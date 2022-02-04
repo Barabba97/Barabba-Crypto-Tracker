@@ -22,19 +22,7 @@ const StickChart = ({historicData}) => {
         closePrice[i] = apiData[i][4];
 
         dataArray.push([timestamp[i], lowPrice[i], openPrice[i], closePrice[i], highPrice[i]]);
-        /*var rowItem = [
-            new Date(apiData[index][0]), 
-            apiData[index][1], 
-            apiData[index][2], 
-            apiData[index][3], 
-            apiData[index][4]
-        ];
-        dataArray.push(rowItem);*/
     }
-
-    /*for (let i in apiData) {
-        dataArray.push([timestamp[i], lowPrice[i], openPrice[i], closePrice[i], highPrice[i]]);
-    }*/
 
     console.log(dataArray);
 
