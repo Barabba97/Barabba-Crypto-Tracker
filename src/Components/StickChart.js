@@ -55,8 +55,8 @@ const StickChart = ({historicData}) => {
 
     return (
         <>
-            {!chart && <Spinner />}
-            <div id="chartDiv" className={!chart ? 'd-none' : ''} />
+            {!google && <Spinner />}
+            <div id="chartDiv" className={!google ? 'd-none' : ''} />
         </>
     );
 };
